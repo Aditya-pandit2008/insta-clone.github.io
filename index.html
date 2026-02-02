@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Insta Clone</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="page">
+            <section class="left">
+                
+
+                <div class="hero">
+                    <h1 class="hero-title">See everyday moments from your <span class="highlight">close friends.</span></h1>
+
+                    <div class="phone-collage" aria-hidden="true">
+                        <div class="phone phone-left"></div>
+                        <div class="phone phone-center"></div>
+                        <div class="phone phone-right"></div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="right">
+                <div class="auth-card">
+                    <a class="back">←</a>
+                    <h2 class="auth-title">Log in to Instagram</h2>
+
+                    <form id="loginForm">
+                        <label class="field">
+                            <input type="text" id="user" placeholder="Mobile number, username or email address" required />
+                        </label>
+
+                        <label class="field">
+                            <input type="password" id="pass" placeholder="Password" required />
+                        </label>
+
+                        <button class="btn primary" type="submit">Log in</button>
+
+                        <p class="forgot">Forgotten password?</p>
+
+                        <div class="divider"><span>or</span></div>
+
+                        <button type="button" class="btn outline facebook">Log in with Facebook</button>
+                        <button type="button" class="btn outline create">Create new account</button>
+
+                        <p class="meta">© 2026 Instagram from Meta</p>
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
